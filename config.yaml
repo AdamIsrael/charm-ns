@@ -1,0 +1,32 @@
+options:
+    juju-username:
+        type: string
+        default: ""
+        description: "The Juju username to authenticate with."
+    juju-password:
+        type: string
+        default: ""
+        description: "The Juju password to authenticate with."
+
+    nsr-name:
+        default:
+        description: The runtime name of the Network Service, i.e., what its deployed name is.
+        type: string
+
+    user-member-index:
+        default:
+        description: The vnf-member-index of the user VNF.
+        type: string
+    user-vdu-id:
+        default:
+        description: The id of the VDU containing the charm.
+        type: string
+
+    policy-member-index:
+        default:
+        description: The vnf-member-index of the policy VNF.
+        type: string
+    policy-vdu-id:
+        default:
+        description: The id of the VDU containing the charm.
+        type: string
