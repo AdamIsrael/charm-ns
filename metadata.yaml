@@ -8,5 +8,6 @@ tags:
   # https://jujucharms.com/docs/stable/authors-charm-metadata
   - misc
 series:
+  - xenial
   - bionic
 subordinate: false
